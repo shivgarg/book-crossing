@@ -1,0 +1,77 @@
+<html>
+<head>
+<title>IIT Delhi Proxy Login</title>
+
+<script type="text/javascript" language="JavaScript">
+
+function MySubmit(){
+	document.form_expire.submit();
+	return true;
+}
+
+setTimeout('MySubmit();',60000);
+
+</script>
+
+</head>
+<body>
+<center>
+<h1>IIT Delhi Proxy Login</h1>
+
+<!---
+You must log in as a registered user before you can use the system.
+<p>
+
+<ul>
+
+<li>
+Click <a href="https://ldap1.iitd.ernet.in/usermanage">here</a> to register Kerberos Password
+<p>
+
+<li>
+If you have already registered, enter your userid and password and click "Log on":<br>
+
+</ul>
+
+--->
+
+<form name="myform" method="post" action="proxy.cgi">
+<input name="sessionid" type="hidden" value="535275d93c51b4a4">
+<input name="action" type="hidden" value="Validate">
+
+<table>
+
+<tr>
+<td>User ID:</td>
+<td><input name="userid" type="text" size=20></td>
+</tr>
+
+<tr>
+<td>Password:</td>
+<td><input name="pass" type="password" size=20></td>
+</tr>
+
+<tr>
+<td></td>
+<td><input name="logon" value="Log on" type="submit" style="font: bold large times new roman,sans-serif,helvetica;"></td>
+</tr>
+
+</table>
+</form>
+</center>
+
+<script type="text/javascript" language="JavaScript" src="https://proxy82.iitd.ernet.in/cgi-bin/notice.cgi"> </script>
+
+<center>
+<script type="text/javascript" language="JavaScript">
+document.forms['myform'].elements['userid'].focus();
+</script>
+
+
+<form  name="form_expire" method="post" action="proxy.cgi?http://www.cc.iitd.ernet.in/" onSubmit="MySubmit();">
+	<input name="sessionid" type="hidden" value="535275d93c51b4a4">
+	<input name="action" type="hidden" value="Expire">
+</form>
+</center>
+</body>
+</html>

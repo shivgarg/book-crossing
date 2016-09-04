@@ -1,0 +1,16 @@
+Amazon product metadata and reviews from summer 2006
+	"http://snap.stanford.edu/data/amazon-meta.html".
+
+
+Book-Crossing Dataset ... mined by Cai-Nicolas Ziegler, DBIS Freiburg(3 tables)
+	"http://www2.informatik.uni-freiburg.de/~cziegler/BX/"
+	1.BX-Books
+	2.BX-Book-Ratings
+	3.BX-Users
+
+The FakeName Generator.
+	"http://www.fakenamegenerator.com/order.php"
+	for generating the users' data.
+
+Transactions and other rest of data were generated using python scripts and grep utility.
+

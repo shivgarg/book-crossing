@@ -1,0 +1,10 @@
+[18-Apr-2014 13:01:30 UTC] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/shivam/site/output.php on line 19
+[18-Apr-2014 13:03:26 UTC] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/shivam/site/output.php on line 19
+[18-Apr-2014 13:08:45 UTC] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/shivam/site/output.php on line 19
+[18-Apr-2014 13:43:00 UTC] PHP Parse error:  syntax error, unexpected '[' in /home/shivam/site/output.php on line 107
+[18-Apr-2014 13:52:28 UTC] PHP Notice:  Undefined index: type in /home/shivam/site/output.php on line 3
+[18-Apr-2014 15:45:18 UTC] PHP Fatal error:  Call to undefined function requier_once() in /home/shivam/site/output.php on line 2
+[18-Apr-2014 15:45:21 UTC] PHP Fatal error:  Call to undefined function requier_once() in /home/shivam/site/output.php on line 2
+[18-Apr-2014 15:45:30 UTC] PHP Fatal error:  Call to undefined function requier_once() in /home/shivam/site/output.php on line 2
+[19-Apr-2014 10:28:41 UTC] PHP Parse error:  syntax error, unexpected T_STRING, expecting ',' or ';' in /home/shivam/site/server/login.php on line 7
+[19-Apr-2014 12:04:44 UTC] PHP Parse error:  syntax error, unexpected T_ENCAPSED_AND_WHITESPACE, expecting T_STRING or T_VARIABLE or T_NUM_STRING in /home/shivam/site/server/addBook.php on line 19
