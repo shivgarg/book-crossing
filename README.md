@@ -2,7 +2,7 @@
 ![Logo](https://cloud.githubusercontent.com/assets/5080310/13220998/186aac70-d99f-11e5-9527-6a8c97793f69.png)
 ---------------
 
-[Quiker](http://www.quikr.com/) like application for books with some other functionalities 
+[Quikr](http://www.quikr.com/) like application for books with some other functionalities 
 
 The frontend of this application is developed using PHP and css and in the backend lies a postgreSQL database which handles all the add, delete, update, search etc querries.
 
